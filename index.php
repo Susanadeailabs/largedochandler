@@ -1,9 +1,4 @@
-<!-- <?php
-
-require_once('vendor/autoload.php'); // Path to Composer autoload.php
-
-use setasign\Fpdi\Fpdi;
-
+<?php
 // Function to fetch file from URL
 function fetchFile($url) {
     $ch = curl_init($url);
@@ -109,4 +104,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     //exit();
 }
 
-?> -->
+?>
